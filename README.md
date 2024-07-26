@@ -19,11 +19,15 @@ higherOrderFunction(callbackFunction);
 
 # Parameters:
 higherOrderFunction: Takes a callback function, executes it, and performs operations.
+
 callback: A function passed as an argument, executed inside higherOrderFunction.
+
 callbackFunction(): Logs “Callback function is executed.”
+
 Invocation: Calls higherOrderFunction(callbackFunction), executing callbackFunction within higherOrderFunction.
 
-#Higher Order Function is used as:
+# Higher Order Function is used as:
+
 1.Function as Arguments
  A function can accept other functions as arguments. This allows for the creation of more abstract and reusable code.
 2. Functions that Return Functions:
